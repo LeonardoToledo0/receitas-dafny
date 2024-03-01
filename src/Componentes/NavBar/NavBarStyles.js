@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 import { NavLink } from "react-router-dom";
+import { corPrimaria, corPrincipal, corTerciaria } from '../Assets/styles'
 
 
-
-const corPrincipal = '#f3fde8';
-const corPrimaria = '#B784B7'
-const corTerciaria = '#a8df8e';
 
 export const NavHeader = styled.header`
 width: 100%;
 background: ${corPrincipal};
 box-shadow: 4px 0px 7px ${corPrimaria};
+z-index: 1;
 position: fixed;
-
+  top: 0;
 `
 
 export const NavHeaderDiv = styled.div`
